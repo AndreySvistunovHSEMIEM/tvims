@@ -75,12 +75,12 @@ $Cor(X,Y)=\frac{-0.02}{\sqrt{0.7475}\cdot \sqrt{0.24}}\approx -0.0472$
 
 
 
-$
+$$
 f(x) = \begin{cases} 
 C|2x + 3|, & -3 < x < -1 \\
 0, & x \leq -3 \text{ или } x \geq -1 
 \end{cases}
-$
+$$
 
 Найти:
 - Константу $C$;
