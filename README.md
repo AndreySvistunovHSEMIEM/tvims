@@ -113,7 +113,7 @@ $F(X)= \int_{-\infty}^{x} f(t) \, dt$
 
 1) $F(X \leq -3)=0 \\ F(X > -1)=1$
 
-2) $ -3 < x \leq -\frac{3}{2} $:
+2) $-3 < x \leq -\frac{3}{2}$:
 
 $$F(x) = \int_{-3}^{x} \frac{2}{5} (-2t - 3) \, dt = \left( -\frac{2}{5}t^2 - \frac{6}{5}t \right)_{-3}^{x} = -\frac{2}{5}x^2 - \frac{6}{5}x$$
 
@@ -125,12 +125,12 @@ P.S $\frac{9}{10}$ берется от того, что мы в предыдущ
 
 Итого:
 
-$F(x) = \begin{cases} 
+$$F(x) = \begin{cases} 
 0, & x \leq -3 \\
 -\frac{2}{5}x^2 - \frac{6}{5}x, & -3 < x \leq -\frac{3}{2} \\
 \frac{2}{5}x^2 + \frac{6}{5}x + \frac{9}{5}, & -\frac{3}{2} < x \leq -1 \\
 1, & x > -1 
-\end{cases}$
+\end{cases}$$
 
 ### Матожидание
 
@@ -143,7 +143,7 @@ $E[X]=\int_{-3}^{-\frac{3}{2}} -0.4(2x+3) \, dx +\int_{-\frac{3}{2}}^{-1}0.4(2x+
 ### Дисперсия
 
 $Var[X] = E[X^2]-[E[X]]^2 \\
-\text{Главное, что:  } E[X^2]= \int_{-\infty}^{\infty} x^2f(x) \, dx = \frac{47}{8}\\
+\text{Главное, что:  } \\ E[X^2]= \int_{-\infty}^{\infty} x^2f(x) \, dx = \frac{47}{8} \\
 Var[X] = \frac{47}{8} - (\frac{71}{30}) ^ 2 \approx 0.2738
 $
 
